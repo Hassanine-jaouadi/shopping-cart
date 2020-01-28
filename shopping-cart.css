@@ -1,0 +1,45 @@
+html, body{
+    background-color: #dbdbdb;
+
+  
+}
+h1{
+    color: red;
+}
+
+.navbar-light .navbar-brand {
+    color: #159a15 !important;
+}
+
+.title {
+    padding: 15px;
+    background-color: #343940;
+    color: white;
+}
+.product-name, .total-price {
+    font-weight: bold;
+    font-size: 18px;
+}
+.shopping-bag {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+    
+  
+    
+  }
+
+  .item {
+      display: flex;
+      flex: 1;
+      flex-wrap: wrap;
+      width: 100%;
+      padding-top: 5px;
+      padding-bottom: 10px;
+      justify-content: space-around;
+      align-items: center;
+      border-bottom: 1px solid grey;
+  }
+
